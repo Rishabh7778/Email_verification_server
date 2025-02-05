@@ -6,8 +6,8 @@ const db = require('./libs/db');
 const router = require('./routes/AuthROutes');
 
 app.use(cors({
-    origin: "http://localhost:3000", // Allow frontend to make requests
-    credentials: true, // Allow cookies and authentication headers
+    origin: "http://localhost:3000",
+    credentials: true, 
 }));
 
 app.use(express.json());
